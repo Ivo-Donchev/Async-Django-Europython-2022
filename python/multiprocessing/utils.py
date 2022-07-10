@@ -6,5 +6,5 @@ def func(id):
         if i % step == 0:
             progress = (i / step) * 10
             print(
-                f'Process {id} reached {progress} %'
+                f'Worker {id} reached {progress} %'
             )
